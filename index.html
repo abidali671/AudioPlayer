@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Script Tutorials" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <title>Audio player with playlist</title>
+
+    <!-- add styles and scripts -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery-ui-1.8.21.custom.min.js"
+    ></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="example">
+      <div class="playlist-box">
+        <h2 style="margin: 10px; font-weight: bold; letter-spacing: 3px;">
+          Playlist
+        </h2>
+        <ul class="playlist">
+          <li
+            audiourl="2 Souls Lonely.mp3"
+            cover="cover1.jpg"
+            artist="Artist 1"
+          >
+            2 Souls Lonely
+          </li>
+          <li
+            audiourl="Imagine Dragons Beliver.mp3"
+            cover="cover2.jpg"
+            artist="Artist 2"
+          >
+            Imagine Dragons Beliver
+          </li>
+          <li audiourl="Dance Monkey.mp3" cover="cover3.jpg" artist="Artist 3">
+            Dance Monkey
+          </li>
+          <li audiourl="04.mp3" cover="cover4.jpg" artist="Artist 4">04.mp3</li>
+          <li audiourl="05.mp3" cover="cover5.jpg" artist="Artist 5">05.mp3</li>
+          <li audiourl="06.mp3" cover="cover6.jpg" artist="Artist 6">06.mp3</li>
+          <li audiourl="07.mp3" cover="cover7.jpg" artist="Artist 7">07.mp3</li>
+        </ul>
+      </div>
+      <div class="player">
+        <div class="pl"></div>
+        <div class="title"></div>
+        <div class="artist"></div>
+        <div class="cover"></div>
+        <div class="tracker"></div>
+
+        <div class="controls">
+          <button class="rew">
+            <i class="fas fa-step-backward"></i>
+          </button>
+          <button class="play">
+            <i class="fas fa-play"></i>
+          </button>
+          <button class="pause">
+            <i class="fas fa-pause"></i>
+          </button>
+          <button class="fwd">
+            <i class="fas fa-step-forward"></i>
+          </button>
+          <div class="volume-icon">
+            <i class="fas fa-volume-up"></i>
+          </div>
+          <div class="volume"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
