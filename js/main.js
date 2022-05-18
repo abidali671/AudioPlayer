@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
   var volume = $(".volume");
 
   function initAudio(elem) {
-    var url = elem.attr("audiourl");
+    var url = elem.attr("audioUrl");
     var title = elem.text();
     var cover = elem.attr("cover");
     var artist = elem.attr("artist");
